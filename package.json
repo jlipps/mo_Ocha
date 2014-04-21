@@ -1,0 +1,42 @@
+{
+  "name": "mo_Ocha",
+  "description": "Monocle-js wrapper around the Mocha test framework",
+  "tags": [
+    "automation",
+    "javascript",
+    "generators",
+    "testing",
+    "unit test",
+    "functional test"
+  ],
+  "version": "0.0.1",
+  "author": "jlipps@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jlipps/mo_Ocha.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jlipps/mo_Ocha/issues"
+  },
+  "engines": [
+    "node"
+  ],
+  "main": "./lib/main.js",
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "monocle-js": "~0.6.1",
+    "mocha": "~1.18.2"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "devDependencies": {
+    "should": "~3.3.1",
+    "regenerator": "~0.4.6"
+  }
+}
+
+
+
