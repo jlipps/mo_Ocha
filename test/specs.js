@@ -1,17 +1,14 @@
-/*global describe:true */
+/*global describe:true, before:true, beforeEach:true, afterEach:true, it:true,
+  after:true */
 "use strict";
 
 var mo_Ocha = require('../lib/main.js')
   , monocle = require('monocle-js')
   , o_O = monocle.o_O
-  , sleep = monocle.utils.sleep
-  , it = mo_Ocha.it
-  , before = mo_Ocha.before
-  , beforeEach = mo_Ocha.beforeEach
-  , after = mo_Ocha.after
-  , afterEach = mo_Ocha.afterEach;
+  , sleep = monocle.utils.sleep;
 
 require('should');
+mo_Ocha.rewrite();
 
 var slowDouble = o_O(function* (x) {
   yield sleep(10);
