@@ -1,4 +1,4 @@
-mo_Ocha
+mo_ocha
 =======
 
 Use [monocle-js](https://github.com/jlipps/monocle-js) to write asynchronous mocha code without callbacks or remembering to pass "done" everywhere!
@@ -6,15 +6,15 @@ Use [monocle-js](https://github.com/jlipps/monocle-js) to write asynchronous moc
 Install:
 
 ```
-npm install mo_Ocha
+npm install mo_ocha
 ```
 
 Then:
 
 ```js
-var mo_Ocha = require('mo_Ocha')
-  , it = mo_Ocha.it
-  , before = mo_Ocha.before
+var mo_ocha = require('mo_ocha')
+  , it = mo_ocha.it
+  , before = mo_ocha.before
   , should = require('should');
 
 describe('My sweet project', function () {

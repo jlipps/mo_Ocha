@@ -1,5 +1,5 @@
 {
-  "name": "mo_Ocha",
+  "name": "mo_ocha",
   "description": "Monocle-js wrapper around the Mocha test framework",
   "tags": [
     "automation",
