@@ -9,7 +9,7 @@
     "unit test",
     "functional test"
   ],
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "jlipps@gmail.com",
   "repository": {
     "type": "git",
@@ -27,7 +27,8 @@
   },
   "dependencies": {
     "monocle-js": "~0.6.1",
-    "mocha": "~1.18.2"
+    "mocha": "~1.18.2",
+    "lodash": "~2.4.1"
   },
   "scripts": {
     "test": "make test"
