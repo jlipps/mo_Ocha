@@ -26,7 +26,7 @@
     "lib": "./lib"
   },
   "dependencies": {
-    "monocle-js": "~0.6.3",
+    "monocle-js": "~1.0.0",
     "mocha": "~1.18.2",
     "underscore": "~1.6.0"
   },
@@ -34,8 +34,8 @@
     "test": "make test"
   },
   "devDependencies": {
-    "should": "~3.3.1",
-    "regenerator": "~0.4.6"
+    "should": "~4.0.4",
+    "regenerator": "~0.4.12"
   }
 }
 
